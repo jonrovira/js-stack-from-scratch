@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "env": {
+        "jest": true
+    },
+    "plugins": [
+        "flowtype",
+        "compat"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "compat/compat": 2
+    }
+}
